@@ -1,0 +1,229 @@
+::selection {
+	background: #FF7900;
+}
+
+.hyde-orange {
+	color: #FF7900;
+}
+
+.hyde-gray-mid {
+	color: #7C7C7C;
+}
+
+.hyde-gray-dark, a.hyde-gray-dark:hover {
+	color: #29323A;
+}
+
+body {
+	font-family: 'Noto Sans' !important;
+}
+
+.uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6 {
+	font-family: 'Halogen-Bold';
+	color: inherit; 
+	letter-spacing: 0.1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Halogen-Bold';
+	color: #29323A; 
+	letter-spacing: 0.1em;
+}
+
+p {
+	letter-spacing: 0.03em;
+	line-height: 1.8;
+}
+
+a {
+	color: inherit;
+}
+
+a:hover {
+	color: inherit;
+}
+
+small {
+	font-size: 50%;
+}
+
+label {
+	font-size: 12.5px;
+}
+
+input {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+    border-radius: 0;
+}
+
+.uk-input, .uk-textarea {
+	background: none;
+	border-bottom: 1px solid #fff;
+	font-family: 'Halogen-Bold';
+	font-weight: normal;
+	font-size: 12px;
+	letter-spacing: 0.1em;
+}
+
+.uk-input:focus, .uk-select:focus, .uk-textarea:focus {
+	border-color: #7C7C7C;
+}
+
+.main-label {
+	background: none;
+	font-family: 'Halogen-Bold';
+	font-weight: normal;
+	font-size: 12px;
+	letter-spacing: 0.1em;
+	color: #666;
+	opacity: 0.6;
+	padding-left: 10px;
+}
+
+.uk-checkbox {
+	border-color: #fff;
+	margin-right: 5px;
+}
+
+.uk-checkbox:checked, .uk-checkbox:indeterminate, .uk-radio:checked, .uk-checkbox:checked:focus, .uk-checkbox:indeterminate:focus, .uk-radio:checked:focus {
+	background-color: #FF7900;
+}
+
+.uk-textarea {
+	padding-top: 10px;
+}
+
+.uk-button-default {
+	font-family: 'Halogen-Bold';
+	letter-spacing: 0.1em;
+	font-size: 12px;
+	background-color: #7C7C7C;
+	color: #fff;
+	min-width: 50%;
+	border: none;
+}
+
+.uk-button:hover, .uk-button:focus {
+	background-color: #29323A;
+	color: #fff;
+}
+
+.arrow {
+	height: 50px;
+	width: 50px;
+	background-color: #29323A;
+	transform: rotate(45deg);
+	margin: -25px auto 0 auto;
+	display: block;
+}
+
+.arrow:hover {
+	background-color: #7C7C7C;
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: 10vh;
+    visibility: hidden;
+}
+
+.arrow-icon {
+	margin-top: -45px;
+	margin-left: -1px;
+	color: #fff;
+	pointer-events: none;
+}
+
+footer {
+	background: #29323A;
+	color: #fff;
+	font-size: 80%;
+}
+
+#logo {
+	width: 25vw;
+	min-width: 200px;	
+	max-height: 30vh;
+}
+
+#section2 {
+	background-image: url('../image/section2-bg.png'); 
+	background-position: 50%;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+}
+
+#map {
+	min-height: 50vh;
+}
+
+#form {
+	background: #E8E3D6;
+}
+
+#form div {
+	padding-right: 40px;
+	width: 100%;
+}
+
+form .form-control.invalid {
+	border-color: #FF7900;
+}
+form .form-group {
+	position: relative;
+}
+form .form-group .validation-error {
+	color: #FF7900;
+	font-size: 10px;
+	text-align: right;
+}
+form .interest label {
+	margin-right: 20px;
+}
+
+form .pdpa.form-group .validation-error {
+	position: absolute;
+	right: 0px;
+	bottom: -15px;
+	display: block;
+}
+form .pdpa.form-group .has-validation-error span {
+	color: #FF7900;
+}
+
+footer {
+	padding: 20px 30px !important;
+}
+
+@media screen and (min-width: 960px) { 
+	#form div h2, #form div p {
+		padding-left: 10px;
+	}
+}
+
+@media screen and (max-width: 959px) { 
+	#form {
+		padding: 60px 0 80px 20px;
+	}
+	#form div {
+		padding-right: 20px;
+	}
+	footer {
+		padding-top: 30px !important;
+	}
+	.uk-button-default {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 639px), screen and (min-width: 960px) and (max-width: 1200px) { 
+	.interest div label {
+		margin-right: 0px;
+		width: 45%;
+		display: inline-block;
+	}
+}
